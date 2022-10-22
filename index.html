@@ -3,9 +3,60 @@
   <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
-
   <body>
+    <header>
+      <div class="header-logo">
+        家計簿
+      </div>
+      <div class="header-list">
+        <ul>
+          <li>Hiroki</li>
+          <li>Manami</li>
+        </ul>
+      </div>
+    </header>
+    <div class="expense-table">
+      <div class="individual-expense">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">個人出費</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th>Hiroki</th>
+              <th>Manami</th>
+            </tr>
+          </thead>
+          <tbody>
+            <td>¥10,000</td>
+            <td>¥10,000</td>
+          </tbody>
+        </table>
+      </div>
+      <div class="joint-expense">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">共同出費</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th>Total</th>
+              <th>一人当たり</th>
+            </tr>
+          </thead>
+          <tbody>
+            <td>¥10,000</td>
+            <td>¥5,000</td>
+          </tbody>
+        </table>
+      </div>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

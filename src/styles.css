@@ -1,0 +1,65 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+header {
+  background-color: #202f55;
+  color: white;
+  height: 80px;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding-right: 40px;
+}
+
+table {
+  width: 50%;
+  font-size: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  table-layout: fixed;
+  border: 1px solid darkgray;
+}
+
+th,
+td {
+  border: 1px solid darkgray;
+}
+
+.header-logo {
+  font-size: 30px;
+  padding: 20px 20px;
+}
+
+.header-list {
+  font-size: 17px;
+  padding: 30px 20px;
+}
+
+.expense-table {
+  display: flex;
+  float: left;
+  padding: 20px;
+}
