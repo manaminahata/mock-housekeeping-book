@@ -1,2 +1,2 @@
 # mock-housekeeping-book
-Created with CodeSandbox
+支出管理アプリ用のモック作成
