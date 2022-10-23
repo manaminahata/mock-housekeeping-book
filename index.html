@@ -57,6 +57,56 @@
         </table>
       </div>
     </div>
+    <<!-- 登録項目:日時,内容,金額 -->
+    <div id="regist_spending">
+      <h2>データ登録</h2>
+      <table id="regist_data_tb">
+          <tr>
+            <td>登録日</td>
+            <td><input type="date" id="regist_date"></td>
+          </tr>
+          <tr>
+            <td>概要</td>
+            <td><input type="text" id="regist_contents" required></td>
+          </tr>
+          <tr>
+            <td>分類</td>
+            <td>
+              <select id="regist_price">
+                <option>-----</option>
+                <option>家賃</option>
+                <option>光熱費</option>
+                <option>水道代</option>
+                <option>投資</option>
+                <option>携帯料金</option>
+                <option>サブスク</option>
+                <option>食費</option>
+                <option>外食費</option>
+                <option>旅費</option>
+                <option>その他（共同費）</option>
+                <option>交通費</option>
+                <option>サウナ</option>
+                <option>ファッション</option>
+                <option>自己啓発</option>
+                <option>キャッシュレス</option>
+                <option>美容費</option>
+                <option>雑費</option>
+                <option>その他（個人）</option>
+              </select>
+            </td>
+            <tr>
+              <td>金額</td>
+              <td><input type="number" id="regist_price" min="1"></td>
+            </tr>
+          </tr>
+          <tr>
+            <td>備考</td>
+            <td><input type="text" id="regist_contents" required></td>
+          </tr>
+          <tr><td colspan="2"><button id="regist_spending_btn">登録</button></td></tr>
+      </table>
+    </div>
+    <!-- 支出テーブル -->
     <div class="main-table">
       <div class="hiroki-table">
         <table>
