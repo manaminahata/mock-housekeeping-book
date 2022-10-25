@@ -7,9 +7,7 @@
   </head>
   <body>
     <header>
-      <div class="header-logo">
-        家計簿
-      </div>
+      <div class="header-logo">家計簿</div>
       <div class="header-list">
         <ul>
           <li>Hiroki</li>
@@ -17,50 +15,11 @@
         </ul>
       </div>
     </header>
-    <div class="expense-table">
-      <div class="individual-expense">
-        <table>
-          <thead>
-            <tr>
-              <th colspan="2">個人出費</th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th>Hiroki</th>
-              <th>Manami</th>
-            </tr>
-          </thead>
-          <tbody>
-            <td>¥10,000</td>
-            <td>¥10,000</td>
-          </tbody>
-        </table>
-      </div>
-      <div class="joint-expense">
-        <table>
-          <thead>
-            <tr>
-              <th colspan="2">共同出費</th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th>Total</th>
-              <th>一人当たり</th>
-            </tr>
-          </thead>
-          <tbody>
-            <td>¥10,000</td>
-            <td>¥5,000</td>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <<!-- 登録項目:日時,内容,金額 -->
-    <div id="regist_spending">
-      <h2>データ登録</h2>
-      <table id="regist_data_tb">
+    <!-- 登録項目 -->
+    <div class="regist_spending">
+      <h4>データ登録</h4>
+      <p class="regist-contents-top"></p>
+      <table class="regist_data_tb">
           <tr>
             <td>登録日</td>
             <td><input type="date" id="regist_date"></td>
@@ -105,6 +64,47 @@
           </tr>
           <tr><td colspan="2"><button id="regist_spending_btn">登録</button></td></tr>
       </table>
+      <p class="regist-contents-bottom"></p>
+    </div>
+    <div class="expense-table">
+      <div class="individual-expense">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">個人出費</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th>Hiroki</th>
+              <th>Manami</th>
+            </tr>
+          </thead>
+          <tbody>
+            <td>¥10,000</td>
+            <td>¥10,000</td>
+          </tbody>
+        </table>
+      </div>
+      <div class="joint-expense">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">共同出費</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th>Total</th>
+              <th>一人当たり</th>
+            </tr>
+          </thead>
+          <tbody>
+            <td>¥10,000</td>
+            <td>¥5,000</td>
+          </tbody>
+        </table>
+      </div>
     </div>
     <!-- 支出テーブル -->
     <div class="main-table">

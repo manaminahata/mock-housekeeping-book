@@ -21,45 +21,108 @@ body {
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
-header {
-  background-color: #202f55;
-  color: white;
-  height: 80px;
-  display: flex;
-}
-
 li {
   list-style: none;
   float: left;
   padding-right: 40px;
 }
 
-table {
-  width: 50%;
-  font-size: 100%;
-  border-collapse: collapse;
-  margin: auto;
-  table-layout: fixed;
-  border: 1px solid darkgray;
-}
-
-th,
-td {
-  border: 1px solid darkgray;
+header {
+  height: 70px;
+  background-color: #202f55;
+  color: #fff;
+  display: flex;
 }
 
 .header-logo {
   font-size: 30px;
-  padding: 20px 20px;
+  padding: 15px 35px;
 }
 
 .header-list {
-  font-size: 17px;
-  padding: 30px 20px;
+  font-size: 20px;
+  padding: 33px 20px;
+}
+
+.regist_spending {
+  width: 30%;
+  float: left;
+  color: #202f55;
+  float: left;
+  margin: 10px;
+}
+
+.regist-contents-top {
+  padding-left: 20px;
+  border-bottom: 2px solid darkgray;
+}
+
+.regist_spending table {
+  width: 50%;
+  font-size: 70%;
+  table-layout: fixed;
+  border: none;
+  padding: 0px;
+}
+
+.regist-contents-bottom {
+  padding-left: 20px;
+  border-bottom: 2px solid darkgray;
 }
 
 .expense-table {
   display: flex;
   float: left;
-  padding: 20px;
+  padding: 10px;
+}
+
+.individual-expense table {
+  font-size: 70%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid darkgray;
+}
+
+.individual-expense th {
+  border: 1px solid darkgray;
+}
+
+.individual-expense td {
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid darkgray;
+}
+
+.joint-expense table {
+  font-size: 70%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid darkgray;
+}
+
+.joint-expense th {
+  border: 1px solid darkgray;
+}
+
+.joint-expense td {
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid darkgray;
+}
+
+.main-table table {
+  margin-left: 10px;
+  width: 50%;
+  font-size: 70%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid darkgray;
+}
+
+.main-table th {
+  border: 1px solid darkgray;
+}
+
+.main-table td {
+  border: 1px solid darkgray;
 }
