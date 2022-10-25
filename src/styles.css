@@ -34,6 +34,20 @@ header {
   display: flex;
 }
 
+input {
+  border: 1px solid darkgray;
+  border-radius: 0.25em;
+  padding: 0.2em;
+  width: 12em;
+}
+
+select {
+  border: 1px solid darkgray;
+  border-radius: 0.25em;
+  padding: 0.2em;
+  width: 12em;
+}
+
 .header-logo {
   font-size: 30px;
   padding: 15px 35px;
@@ -45,11 +59,15 @@ header {
 }
 
 .regist_spending {
-  width: 30%;
+  width: 20%;
   float: left;
   color: #202f55;
   float: left;
   margin: 10px;
+}
+
+.regist_spending h4 {
+  padding-left: 23px;
 }
 
 .regist-contents-top {
@@ -59,15 +77,26 @@ header {
 
 .regist_spending table {
   width: 50%;
-  font-size: 70%;
+  font-size: 80%;
   table-layout: fixed;
   border: none;
-  padding: 0px;
+  padding: 10px;
 }
 
 .regist-contents-bottom {
   padding-left: 20px;
   border-bottom: 2px solid darkgray;
+}
+
+.regist_spending_btn {
+  float: right;
+  color: #fff;
+  background-color: #67b5b7;
+}
+
+.regist_spending_btn:hover {
+  color: #fff;
+  background-color: #80989b;
 }
 
 .expense-table {

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@gemeente-denhaag/header-logo": "0.1.1-alpha.154",
+    "bootstrap": "5.2.2",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
